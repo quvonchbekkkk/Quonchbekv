@@ -1,0 +1,497 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  align-items: center;
+  
+}
+
+/* Navbar */
+#navbar{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.301);
+  width: 100%;
+  height: 150px;
+}
+
+
+#navbar .logo img{
+  width: 300px;
+  margin-top: -18px;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+.menu{
+  float: right;
+  position: relative;
+  top: 50px;
+}
+
+li{
+  float: left;
+}
+
+.logo{
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 100px;
+}
+
+.menu ul a{
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+  font-size: 15px;
+  line-height: 30px;
+  padding: 30px;
+  display: block;
+  margin-right: 50px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.active{
+  color: coral !important;
+}
+
+/* Rectangle */
+
+.rectangle{
+  position: relative;
+  width: 100%;
+  height: 619px;
+  /* background-image: url('../img/background.jpg'); */
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url('../img/background.jpg');
+}
+
+.rectangle-text{
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 36px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 58px;
+  padding: 10px;
+  line-height: 80px;
+}
+
+
+h4{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 38px;
+}
+
+/* Button */
+.button{
+  position: relative;
+  top: -200px;
+  /* left: 500px; */
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.button1{
+  font-size: 24px;
+  line-height: 16px;
+  color: white;
+  background-color: #FA4A0C;
+  width: 212px;
+  height: 62px;
+  border-radius: 30px;
+  padding: 16px 0;
+  font-weight: 600;
+  box-shadow: black;
+  border: 1px solid #FA4A0C;
+  cursor: pointer;
+}
+
+.button2{
+  font-size: 24px;
+  line-height: 16px;
+  color: white;
+  background-color: #fa4b0c00;
+  width: 212px;
+  height: 62px;
+  border-radius: 30px;
+  padding: 16px 0;
+  font-weight: 600;
+  box-shadow: black;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.button1:hover{
+  background-color: rgba(255, 255, 255, 0.616);
+  color: #FA4A0C;
+}
+
+.button2:hover{
+  background-color: rgba(255, 255, 255, 0.616);
+  color: #FA4A0C;
+  border: 1px solid #FA4A0C;
+}
+
+/* Images */
+.images{
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  /* left: 150px; */
+  top: 40px;
+  
+}
+
+.img-one{
+  margin-left: 120px;
+}
+
+.img-one img{
+  position: absolute;
+  width: 656px;
+  height: 636px;
+  top: -240px;
+}
+
+.img-two{
+  margin-left: 400px;
+}
+
+.img-two img{
+  position: absolute;
+  width: 656px;
+  height: 636px;
+  margin-top: -190px;
+  
+}
+
+
+/* Linear  --HR-- */
+
+.linear{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.line{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(145, 143, 143);
+  top: 600px;
+}
+
+/* Block */
+.block{
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  bottom: 100px;
+}
+
+.img-block{
+  height: 100%;
+}
+
+.img-block img{
+  position: absolute;
+  width: 700px;
+  top: 100px;
+  top: 200px;
+  float: left;
+}
+
+
+
+/* h2 */
+h2{
+  text-align: center;
+  color: #555;
+  margin-top: 650px;
+  font-size: 50px;
+}
+
+/* Login */
+
+.text-login {
+  position: relative;
+  float: right;
+  color: #555;
+}
+
+.text-login h6{
+  position: absolute;
+  font-size: 18px;
+  color: #FA4A0C !important;
+  padding: 5px;
+  margin-left: 600px;
+  top: 400px;
+
+}
+
+.text-login h5{
+  position: absolute;
+  font-size: 16px;
+  color: #555 !important;
+  padding: 5px;
+  top: 600px;
+  text-align: left;
+  margin-left: 600px;
+  font-weight: 500;
+  display: inline;
+}
+
+.text-login h3{
+  position: relative;
+  font-size: 36px;
+  color: #555 !important;
+  padding: 5px;
+  top: 450px;
+  margin-left: 600px;
+  text-align: left;
+
+}
+
+/* Block II */
+
+.block-II{
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  bottom: 100px;
+}
+
+.img-block-II{
+  height: 100%;
+}
+
+.img-block-II img{
+  position: absolute;
+  width: 700px;
+  top: 900px;
+  left: 600px;
+}
+
+
+/* Login II */
+
+.text-login-II {
+  position: absolute;
+  margin-left:-600px;
+  color: #555;
+}
+
+.text-login-II h6{
+  position: relative;
+  font-size: 18px;
+  color: #FA4A0C !important;
+  padding: 5px;
+  margin-left: 600px;
+  top: 1000px;
+
+}
+
+.text-login-II h5{
+  position: relative;
+  font-size: 16px;
+  color: #555 !important;
+  padding: 5px;
+  top: 1300px;
+  text-align: left;
+  margin-left: 600px;
+  font-weight: 500;
+  display: inline;
+}
+
+.text-login-II h3{
+  position: relative;
+  font-size: 36px;
+  color: #555 !important;
+  padding: 5px;
+  top: 1050px;
+  margin-left: 600px;
+  text-align: left;
+
+}
+
+/* Block III */
+.block-III{
+  top: 1400px;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  /* bottom: 100px; */
+}
+
+.img-block-III{
+  height: 100%;
+  margin-left: 10px;
+}
+
+.img-block-III img{
+  position: absolute;
+  width: 700px;
+  top: 100px;
+  float: left;
+}
+
+/* Login III */
+
+.text--III h6{
+  position: absolute;
+  font-size: 18px;
+  color: #FA4A0C !important;
+  padding: 5px;
+  margin-left: 600px;
+  top: 400px;
+
+}
+
+.text-login-III h5{
+  position: absolute;
+  font-size: 16px;
+  color: #555 !important;
+  padding: 5px;
+  top: 600px;
+  text-align: left;
+  margin-left: 600px;
+  font-weight: 500;
+  display: inline;
+}
+
+.text-login-III h3{
+  position: relative;
+  font-size: 36px;
+  color: #555 !important;
+  padding: 5px;
+  top: 450px;
+  margin-left: 600px;
+  text-align: left;
+
+}
+
+/* Rectangle 2*/
+
+.rectangle2{
+  position: relative;
+  margin-top: 2200px;
+  width: 100%;
+  height: 619px;
+  /* background-image: url('../img/background.jpg'); */
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url('../img/background-2.jpg');
+}
+
+.rectangle-text2{
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 36px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 58px;
+  padding: 10px;
+  line-height: 80px;
+}
+
+
+h4{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 38px;
+}
+
+/* Button */
+.button-II{
+  position: relative;
+  top: -200px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.button-1{
+  font-size: 24px;
+  line-height: 16px;
+  color: white;
+  background-color: #FA4A0C;
+  width: 212px;
+  height: 62px;
+  border-radius: 5px;
+  padding: 16px 0;
+  font-weight: 600;
+  box-shadow: black;
+  border: 1px solid #FA4A0C;
+  cursor: pointer;
+}
+
+.button-2{
+  font-size: 24px;
+  line-height: 16px;
+  color: white;
+  background-color: #fa4b0c00;
+  width: 212px;
+  height: 62px;
+  border-radius: 5px;
+  padding: 16px 0;
+  font-weight: 600;
+  box-shadow: black;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.button-1:hover{
+  background-color: rgba(255, 255, 255, 0.616);
+  color: #FA4A0C;
+}
+
+.button-2:hover{
+  background-color: rgba(255, 255, 255, 0.616);
+  color: #FA4A0C;
+  border: 1px solid #FA4A0C;
+}
+
+@media screen and (max-width: 1000px) {
+.img-block img{
+  width: 100%;
+}
+
+  .text-login h6 h3 h5{
+    width: 100%;
+    padding: 30px;
+  }
+}
+  
